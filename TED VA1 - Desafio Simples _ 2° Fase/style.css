@@ -1,0 +1,89 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#cabeca{
+    margin-top: 10px;
+    background-image: url(imagem/Logo.png);
+    width: 100%;
+    min-height: 150px;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#navmenu{
+    background-image: url(imagem/SAMPLEMENU.png);
+    width: 100%;
+    min-height: 30px;
+    text-align:  left;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+#principal{
+    background-color: rgb(32, 156, 238);
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px
+}
+#main-div{
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+}
+#sidebar{
+    width: 24%;
+    min-height: 600px;
+    background-image: url(imagem/Lateral-Aeroportos.png);
+    float: right;
+    text-align: center; 
+}
+#bodyarea{
+    width: 75%;
+    min-height: 600px;
+    background-image: url(imagem/SAMPLE.png);
+    float: left;
+    text-align: center;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#foot{
+    background-image: url(imagem/footernovo.png);
+    min-height: 80px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px;  
+}
+#menuhome{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+#menuhome :hover{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    font-weight: 800;
+}
+
+#abc{
+    width: 80%;
+    background-color: rgb(248, 248, 248);
+    margin: auto;
+}
+p, h1, h2,h3, ul, ol, li, a{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+#giffweb{
+    width: 75%;
+    min-height: auto;
+}
